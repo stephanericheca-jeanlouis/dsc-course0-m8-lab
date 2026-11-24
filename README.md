@@ -43,7 +43,7 @@ Two contributing factors were investigated: **Weather Condition** and **Phase of
 All rankings use sample-size thresholds (≥50 accidents for small-aircraft makes, ≥10 for large-aircraft makes and for specific types) so that every recommendation rests on a meaningful number of observations.
 
 ### Small Aircraft Recommendations
-- **Top makes (in both injury and destruction Top 15):** Waco (mean injury 0.10, n=139), Maule (0.15, n=570), Aviat (0.XX, n=XXX), Boeing Stearman (0.18, n=50), [UPDATE: fifth make from the new Top 15].
+- **Top makes (in both injury and destruction Top 15):** Waco (mean injury 0.10, destruction 0.09, n=139), Helio (0.15 / 0.12, n=106), Maule (0.15 / 0.09, n=570), Boeing Stearman (0.18 / 0.10, n=50), Aviat (0.19 / 0.07, n=217). Boeing also appears in both lists but is excluded, because its "small" accidents are mostly airliners with few people on board.
 - **Top types (≥10 accidents):** Piper PA-18A 150 (0.00, n=12), Cessna 180C (0.00, n=15), Grumman G164B (0.00, n=16), Maule MX-7-235 (0.03, n=17), Cessna 560XL (0.04, n=25).
 
 ### Large Aircraft Recommendations
@@ -51,8 +51,8 @@ All rankings use sample-size thresholds (≥50 accidents for small-aircraft make
 - **Top types:** Mcdonnell Douglas MD-83 (0.001, n=18), MD-80 (0.001, n=15), Boeing 717-200 (0.001, n=15), Boeing 737-322 (0.001, n=12), Boeing 757-251 (0.001, n=10).
 
 ### Contributing Factors
-1. **Weather Condition:** IMC accidents have a mean injury fraction of 0.64 (n=4,987), roughly three times higher than VMC at 0.22 (n=54,623). Destruction rates show the same pattern (0.58 vs. 0.17).
-2. **Phase of Flight:** Maneuvering is the most dangerous phase (mean injury 0.52, n=4,968), followed by Climb (0.39) and Cruise/Approach (~0.34). Landing (0.04, n=12,341) and Taxi (0.02, n=1,616) are the safest.
+1. **Weather Condition:** IMC accidents have a mean injury fraction of 0.64 (n=4,975), roughly three times higher than VMC at 0.22 (n=53,827). Destruction rates show the same pattern (0.58 vs. 0.17).
+2. **Phase of Flight:** Maneuvering is the most dangerous phase (mean injury 0.53, n=4,767), about 14× the landing rate, followed by Climb (0.39) and Approach/Cruise (~0.34–0.35). Landing (0.04, n=12,160) and Taxi (0.02, n=1,611) are the safest.
 
 ## Visualizations
 
